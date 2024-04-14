@@ -1,0 +1,83 @@
+#root {
+  background-color: #b461e0; /* Dark purple background for the entire page */
+}
+
+.container {
+  background-color: #b461e0; /* Dark purple background for the container */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  width: 600px;
+  background-color: #fff; /* White background for the card */
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0; /* Light border color */
+  font-weight: bold;
+  font-style: italic;
+  border: #100714;
+}
+
+.card-header {
+  background-color: #512164; /* Dark purple background for the card header */
+  color: #fff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  border: #4c1f5e;
+}
+
+.form-control {
+  flex: 1;
+  border-radius: 4px;
+  border:#4c1f5e;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.btn-secondary {
+  background-color: #6b149a; /* Purple button color */
+  border: none;
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #bc8ad6; /* Lighter purple on hover */
+}
+
+.list-group-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #edcdf9; /* Light purple background for list items */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+  background-color: #da3447; /* Dark purple button color */
+  border: none;
+  color: #fff; /* White text color */
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
